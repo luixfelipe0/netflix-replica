@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>  
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Netflix - 7 Days of Code</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="menu">
+            <img src="img/logo 1.svg" alt="Logo da Netflix" class="menu__logo">
+            <ul class="lista__menu">
+                <li class="lista__item">
+                    <a href="#" class="lista__link">Início</a>
+                </li>
+                <li class="lista__item">
+                    <a href="#" class="lista__link">Séries</a>
+                </li>
+                <li class="lista__item">
+                    <a href="#" class="lista__link">Filmes</a>
+                </li>
+                <li class="lista__item">
+                    <a href="#" class="lista__link">Bombando</a>
+                </li>
+                <li class="lista__item">
+                    <a href="#" class="lista__link">Minha lista</a>
+                </li>
+            </ul>
+        </div> 
+        <div class="menu">
+            <ul class="lista__menu">
+                <li class="lista__item">
+                    <a href="#" class="lista__link">
+                        <img src="img/lupa.png" class="lista__imagem">
+                    </a>
+                </li>
+                <li class="lista__item">
+                    <a href="#" class="lista__link">
+                        <img src="img/notificacao.png" class="lista__imagem">
+                    </a>
+                </li>
+                <li class="lista__item">
+                    <a href="#" class="lista__link">
+                        <img src="img/user 1.png" class="lista__imagem user">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="container__principal">
+        <div class="container__caixa">
+            <img src="img/poster 1.svg" alt="Título do filme Spiderhead." class="caixa__titulo">
+            <p class="caixa__texto">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica.</p>
+            <a href="#" class="caixa__botao assistir">Assistir</a>
+            <a href="#" class="caixa__botao info">Mais informações</a>
+        </div>
+        <div class="catalogo">
+            <div class="catalogo__sessao">
+                <h2 class="catalogo__titulo">Minha lista</h2>
+                <ul class="catalogo__lista">
+                    <li>
+                        <a href="#"><img src="img/poster_01.svg" alt="Poster da série bojack horseman" class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_02.svg" alt="Poster da série Ozark" class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_03.svg" alt="Poster da série A vizinha da mulher na janela" class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_04.svg" alt="Poster da série Breaking Bad" class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_05.svg" alt="Poster da série The End of The Fxxxing World" class="catalogo__poster"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="catalogo__sessao">
+                <h2 class="catalogo__titulo">Em alta</h2>
+                <ul class="catalogo__lista">
+                    <li>
+                        <a href="#"><img src="img/poster_01-1.svg" alt="Poster da série bojack horseman" class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_02-1.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_03-1.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_04-1.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_05-1.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="catalogo__sessao">
+                <h2 class="catalogo__titulo">Séries estrangeiras</h2>
+                <ul class="catalogo__lista">
+                    <li>
+                        <a href="#"><img src="img/poster_01-2.svg" alt="Poster da série bojack horseman" class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_02-2.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_03-2.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_05-2.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/poster_06.svg" alt="Poster da série " class="catalogo__poster"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="catalogo__sessao">
+                <h2 class="catalogo__titulo">Recomendações com base na sua escolha</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_01.svg" alt="Poster da série bojack horseman" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_02.svg" alt="Poster da série Ozark" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_09.svg" alt="Poster da série Conversations whit a killer: the ted bundy tapes" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_10.svg" alt="Poster da série Gabriel 'fluffy' Iglesias one show fits all" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_17.svg" alt="Poster da série The Good Place" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_18.svg" alt="Poster da série Kimmy Schmidt" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_16.svg" alt="Poster da série Amazing Interiors" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_12.svg" alt="Poster da série Fyre the greatest party that never happened" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_11.svg" alt="Poster da série Polar" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_13.svg" alt="Poster da série Friends from college" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_14.svg" alt="Poster da série Riverdale" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_15.svg" alt="Poster da série Velvet buzzsaw" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_07-1.svg" alt="Poster da série Ozark" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_06-1.svg" alt="Poster da série La Casa de Papel Coreia" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_06-2.svg" alt="Poster da série Bem-vindos ao Éden" class="catalogo__poster"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="img/poster_08.svg" alt="Poster da série Elize Mastunaga era uma vez um crime" class="catalogo__poster"></a></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="redes__sociais">
+            <ul class="rodape__lista">
+                <li>
+                    <a href="#"><img src="img/facebook.png" alt="Ícone do Facebook" class="rodape__imagem"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/instagram.png" alt="Ícone do Instagram" class="rodape__imagem"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/twitter.png" alt="Ícone do Twitter" class="rodape__imagem"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/yout.png" alt="Ícone do Youtube" class="rodape__imagem"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="rodape__infos">
+            <ul class="infos__lista">
+                <li>
+                    <a href="#" class="infos__link">Idioma e legendas</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Imprensa</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Privacidade</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Entre em contato</a>
+                </li>
+            </ul>
+            <ul class="infos__lista">
+                <li>
+                    <a href="#" class="infos__link">Audiodescrição</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Relações com investidores</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Avisos legais</a>
+                </li>
+            </ul>
+            <ul class="infos__lista">
+                <li>
+                    <a href="#" class="infos__link">Centro de ajuda</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Carreiras</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Preferência de cookies</a>
+                </li>
+            </ul>
+            <ul class="infos__lista">
+                <li>
+                    <a href="#" class="infos__link">Cartão pré-pago</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Termos de uso</a>
+                </li>
+                <li>
+                    <a href="#" class="infos__link">Informações corporativas</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="botao__codigo">Código de serviço</a>
+        <p class="copyright">1997-2023 Netflix, Inc.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            slidesPerView: 5,
+
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+        
+            // If we need pagination
+            pagination: {
+            el: '.swiper-pagination',
+            },
+        
+            // Navigation arrows
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        
+            // And if we need scrollbar
+            scrollbar: {
+            el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+</body>
+</html>

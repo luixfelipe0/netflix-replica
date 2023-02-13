@@ -1,0 +1,40 @@
+.catalogo__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 2em 2.6em 1em; 
+}
+
+.catalogo__lista {
+    display: flex;
+    margin: 0 3em;
+}
+
+.catalogo__poster {
+    width: 97%;
+}
+
+.swiper {
+    width: 92%;
+    height: 300px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--vermelho-netflix);
+    margin-top: -6em;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: var(--branco-principal);
+}
+
+.swiper-button-prev:active,
+.swiper-button-next:active {
+    color: var(--vermelho-netflix);
+}
+
+.catalogo__poster:hover {
+    width: 90%;
+    border: 2px solid var(--vermelho-netflix);
+}

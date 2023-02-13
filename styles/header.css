@@ -1,0 +1,33 @@
+.cabeçalho {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo {
+    width: 8%;
+    margin: 1em 3em;
+}
+
+.lista__menu {
+    display: flex;
+    column-gap: 1rem;
+    margin-right: 2.5em;
+}
+
+.lista__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-weight: 400;
+}
+
+.lista__link:hover {
+    color: var(--vermelho-netflix);
+}
+
+.lista__imagem {
+    width: 20px;
+}
